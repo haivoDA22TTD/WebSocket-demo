@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:
+      websocket
+  data:
+    mongodb:
+      username: haivoDev
+      password: haivoDev
+      host: localhost
+      port: 27017
+      database: chat_app
+      authentication-database: admin
+  server:
+      port: 8080
